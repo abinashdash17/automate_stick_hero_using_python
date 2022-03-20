@@ -1,0 +1,12 @@
+enable security debugging on too to be able to send touch input using adb
+
+get screen size
+adb shell wm size
+check the connection handler object example from ppadb documentation to
+query for screen res
+https://stackoverflow.com/questions/7527459/how-to-get-the-android-device-screen-size-from-the-adb-command-line
+https://github.com/Swind/pure-python-adb
+download scrcpy tool for screen mirroring and control
+enable usb debugging(including security settings)
+source:
+https://www.youtube.com/watch?v=Du__JfXqsAs
